@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.nav-link {
+    @apply mx-4 bg-slate-200 px-6 py-2 rounded-xl;
+  }
+  
+  .active {
+    @apply text-white bg-gray-600 ;
+  }
